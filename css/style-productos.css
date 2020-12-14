@@ -100,14 +100,6 @@ header input:checked ~ a:nth-child(5){
   transform: translate(210px);
 }
 
-.return{
-
-  width: 20px;
-  height: 500px;
-}
-
-
-
 .container {
   display: flex;
   justify-content: center;
