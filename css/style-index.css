@@ -4,7 +4,6 @@
   margin:0;
   font-family: 'Langar', cursive;
   color:#fff;
-
 }
 
 body{
@@ -14,8 +13,6 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #66999;
-
-
 }
 
 
@@ -31,13 +28,9 @@ body{
   margin: 0 auto;
   width: 50%;
   border-radius: 50px;
-
-
-
 }
 
 h3, p{
-
   color: #ffffff;
   text-shadow: 2px 2px 3px #bb0b0b;
 }
@@ -51,11 +44,9 @@ header{
   display: inline-block;
   background:url(/img/jijo.png) no-repeat center;
   background-position: center center;
-	background-size:cover;
+  background-size:cover;
   left:0;
-	top:0;
-
-
+  top:0;
 }
 
 header input{
@@ -77,14 +68,10 @@ header input::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   font-size 1.2rem;
-
-
-
 }
 
 header input: checked::before{
   content: '\f00d';
-
 }
 
 header a{
@@ -99,8 +86,6 @@ header a{
   transition: all .4s;
   text-shadow: 2px 2px 3px #bb0b0b;
   padding-top: 10px;
-
-
 }
 
 header a:hover{
@@ -114,20 +99,16 @@ header input:checked ~ a{
 
 header input:checked ~ a:nth-child(2){
   transform: translate(-200px);
-
 }
 
 header input:checked ~ a:nth-child(3){
   transform: translate(-100px);
-
 }
 
 header input:checked ~ a:nth-child(4){
   transform: translate(100px);
-
 }
 
 header input:checked ~ a:nth-child(5){
   transform: translate(210px);
-
 }
