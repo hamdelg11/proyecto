@@ -1,0 +1,95 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  background: url(/img/fondo3.jpg);
+  background-size: cover;
+
+}
+
+.return{
+
+  width: 20px;
+  height: 500px;
+
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px; height: 400px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.card img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.details{
+  width: 100%;
+  position: absolute;
+  bottom: 0; left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 10px;
+  transform: translateY(100%);
+  transition: all 0.3s;
+
+}
+
+.details h2{
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #565656;
+}
+
+.details a{
+  display: inline-block;
+  margin-left: 20px;
+  transform: translateY(50px);
+  transition: all 0.3s;
+  color: #565656;
+}
+
+.details a:first-child{ transition-delay: 0.1s; }
+
+.details a:nth-child(2){ transition-delay: 0.2s; }
+
+.details a:last-child{ transition-delay: 0.3s; }
+
+.card:hover img{transform: scale(1.2);}
+
+.card:hover .details, .card:hover .details a { transform: none; }
+
+@media (max-widht: 360px){
+  .card{
+    width: auto;
+    flex: 1 1 100%;
+  }
+  .details h2, .details a { font-size: 14px; }
+}
