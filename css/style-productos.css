@@ -1,14 +1,11 @@
 *{
   padding:0;
   margin: 0;
-  box-sizing: border-box;
+  <!--box-sizing: border-box;-->
 }
 
 body{
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-position: center center;
   background-color: #eee;
   background: url(/img/fondo3.jpg);
   background-size: cover;
