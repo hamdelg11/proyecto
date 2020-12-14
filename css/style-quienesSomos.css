@@ -107,12 +107,6 @@ h1{
   margin: 15px;
 }
 
-.return{
-  width: 20px;
-  height: 20px;
-  padding-left: 350px;
-}
-
 .fiu{
   background-color: #041E4E;
   position: flex;
@@ -147,7 +141,6 @@ h1{
   color: #ffffff;
   text-shadow: 2px 2px 3px #bb0b0b;
   background-color: #fdc53c;
-
   text-align: center;
   border-radius: 15px;
   margin-bottom: 15px;
