@@ -91,7 +91,7 @@ function submitForm(e)
   let nombre = document.querySelector(".nombre").value;
   let email = document.querySelector(".email").value;
   let x1 = document.querySelector(".x1").value;
-  console.log(nombre, x1, mensaje);
+  console.log(nombre, email, x1);
   
   saveContactInfo(nombre, email, x1);
   
