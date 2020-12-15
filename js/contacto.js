@@ -41,9 +41,9 @@ function saveContactInfo(nombre, email, mensaje)
   let newContactInfo = contactInfo.push();
   
   newContactInfo.set({
-    nombre : nombre,
-    email : email,
-    mensaje : mensaje,
+    nombre: nombre,
+    email: email,
+    mensaje: mensaje,
   });
   
   recuperarInfo();
@@ -52,7 +52,7 @@ function saveContactInfo(nombre, email, mensaje)
 //Para recuperar la información del contacto
 function recuperarInfo()
 {
-  let ref = firebase.database().ref("informacion");
+  let ref = firebase.database().ref("info");
   ref.on("value", getDatos);
 }
 
@@ -75,12 +75,12 @@ function getDatos(datos)
 function sendEmail(nombre, email, mensaje)
 {
   Email.send({
-    Host : "smtp.gmail.com",
-    Username : 'pinateriavenados@gmail.com',
-    Password : "nfxocpoaztilzmmf",
-    To : 'pinateriavenados@gmail.com',
-    From : 'pinateriavenados@gmail.com',
-    Subject : '${nombre} te ha enviado un mensaje',
-    Body : 'Nombre: ${nombre} <br> Email: ${email} <br> Mensaje: ${mensaje}'
+    Host: "smtp.gmail.com",
+    Username: 'pinateriavenados@gmail.com',
+    Password: "nfxocpoaztilzmmf",
+    To: 'pinateriavenados@gmail.com',
+    From: 'pinateriavenados@gmail.com',
+    Subject: '${nombre} te ha enviado un mensaje',
+    Body: 'Nombre: ${nombre} <br> Email: ${email} <br> Mensaje: ${mensaje}'
   }).then((mensaje) => alert("El correo se ha enviado con éxito"));
 }
