@@ -167,3 +167,13 @@ header input:checked ~ a:nth-child(5){
   }
   .details h2, .details a { font-size: 14px; }
 }
+
+
+footer{
+  align-self: flex-end;
+  background-color: rgba(120,120,120,.5);
+  line-height: 3;
+  text-align: center;
+  width: 100%;
+  text-shadow: 2px 2px 3px #000000;
+}
