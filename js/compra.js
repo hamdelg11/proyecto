@@ -81,25 +81,33 @@ function submitForm(e)
   //Para obtener el valor de los input
   let nombre = document.querySelector(".nombre").value;
   let email = document.querySelector(".email").value;
+  let direccion = document.querySelector(".direccion").value;
   let x1 = document.querySelector(".x1").value;
+  let pinata = document.querySelector(".pina").value;
+  let precio = document.querySelector(".precio").value;
+  let targ = document.querySelector(".targ").value;
   console.log(nombre, email, x1);
   
-  saveContactInfo(nombre, email, x1);
+  saveContactInfo(nombre, email, direccion, x1, pinata, precio, targ);
   
   document.querySelector(".form-compra").reset();
   
-  sendEmail(nombre, email, x1);
+  sendEmail(nombre, email, direccion, x1, pinata, precio, targ);
 }
 
 //Para guardar información del contacto
-function saveContactInfo(nombre, email, x1)
+function saveContactInfo(nombre, email, direccion, x1, pinata, precio, targ)
 {
   let newContactInfo = contactInfo.push();
   
   newContactInfo.set({
     nombre: nombre,
     email: email,
+   direccion: direccion,
     x1: x1,
+   pinata: pinata,
+   precio: precio,
+   targ: targ,
   });
   
   recuperarInfo();
@@ -122,23 +130,28 @@ function getDatos(datos)
     let infoData = keys[i];
     let nombre = info[infoData].nombre;
     let email = info[infoData].email;
+    let direccion = info[infoData].direccion;
     let x1 = info[infoData].x1;
-    console.log(nombre, email, x1);
+    let pinata = info[infoData].pinata;
+    let precio = info[infoData].precio;
+    let targ = info[infoData].targ;
+    console.log(nombre, email, x1, pinata, precio, targ);
   }
 }
 
 recuperarInfo();
   
 //Para enviar la información del e-mail
-function sendEmail(nombre, email, x1)
+function sendEmail(nombre, email, direccion, x1, pinata, precio, targ)
 {
   Email.send({
+    SecureToken : "C973D7AD-F097-4B95-91F4-40ABC5567812",
     Host: "smtp.gmail.com",
     Username: 'pinateriavenados@gmail.com',
     Password: "nfxocpoaztilzmmf",
     To: "pinateriavenados@gmail.com",
     From: "pinateriavenados@gmail.com",
     Subject: `${nombre} te ha enviado un mensaje`,
-    Body: `Nombre: ${nombre} <br> Email: ${email} <br> Cantidad de piñatas: ${x1}`,
+    Body: `Nombre del cliente: ${nombre} <br> Email del cliente: ${email} <br> Direccion del cliente: $(direccion) <br> Piñata: $(pinata) <br> Precio: $$(precio) <br> Cantidad de piñatas: ${x1} <br> Numero De La Targeta: $(targ)`,
   }).then((x1) => alert("El correo se ha enviado con éxito"));
 }
