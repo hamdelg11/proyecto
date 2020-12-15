@@ -112,8 +112,8 @@
     margin: auto;
     padding-left: auto;
     padding-right: auto;
-    max-width: 900px;
-    max-height: 900px;
+    max-width: 90%;
+    max-height: 90%;
     margin-bottom: 15px;
     border-radius: 20px;
     padding-top: 15px;
@@ -123,8 +123,8 @@
   .box{
     margin: auto;
     padding: auto;
-    max-width: 700px;
-    max-height: 700px;
+    max-width: 80%;
+    max-height: 80%;
   }
   
   .box p{
