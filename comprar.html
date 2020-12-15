@@ -1,58 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>COMPRA DE PIÑATAS</title>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="icon" href="/img/logo-redondo.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style-compra.css">
-</head>
-<body>
-	<div class="menu">     
-        
-        <header>
+    <head>
+        <meta charset="UTF-8">
+	    <title>COMPRA DE PIÑATAS</title>
+	    <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="icon" href="/img/logo-redondo.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/style-compra.css">
+    </head>
+    <body>
+	    <div class="menu">     
+            
+            <header>
           
-          <input type="checkbox" name="" value="">
-          <a href="index.html">Home</a>
-          <a href="Productos.html">Productos</a>
-          <a href="QuienesSomos.html">¿Quiénes somos?</a>
+            <input type="checkbox" name="" value="">
+            <a href="index.html">Home</a>
+            <a href="Productos.html">Productos</a>
+            <a href="QuienesSomos.html">¿Quiénes somos?</a>
                     
-        </header>
+            </header>
              
-    </div>
+        </div>
     
-    <br>
-	<div class="fiu" id="fiu">
+        <br>
 
-		<form method="POST" name="frmcompra" id="frmcompra" class="form-compra">
-		<label for="">Piñata*</label><br>
-		<input type="text" name="f1t1" id="f1t1" class="pina" required readonly><br>
-		<label for="">Precio*</label><br>
-		<input type="text" name="f1t2" id="f1t2" class="precio" required readonly><br>
-	        <label for="">Cantidad*</label><br>
-		<input type="text" class="x1" required><br>
-		<label for="">Nombre*</label><br>
-        	<input class="nombre" type="text" required /><br>
-        	<label for="">E-mail*</label><br>
-        	<input class="email" type="email" required /><br>
-		<label for="">Direccion*</label><br>
-        	<input class="direccion" type="text" required /><br>
-		<label for="">Numero de su targeta*</label><br>
-        	<input class="targ" type="text" required /><br>
-		<button type="submit">Comprar</button>
+	    <div class="fiu">
+
+		    <form method="POST" name="frmcompra" id="frmcompra" class="form-compra">
+		        <center><label for="">Piñata*</label><br>
+		        <input type="text" name="f1t1" id="f1t1" class="c" required readonly><br>
+		        <label for="">Precio*</label><br>
+		        <input type="text" name="f1t2" id="f1t2" class="c" required readonly><br>
+	            <label for="">Cantidad*</label><br>
+		        <input type="text" class="x1" required><br>
+		        <label for="">Nombre*</label><br>
+        	    <input class="nombre" type="text" placeholder="Ingrese su nombre" required /><br>
+        	    <label for="">E-mail*</label><br>
+        	    <input class="email" type="email" placeholder="Ingrese su correo electrónico" required /><br>
+		        <button type="submit">Comprar</button></center>
 		</form>
 
-	 </div>
-	<script src="https://smtpjs.com/v3/smtp.js"></script>
-    	<script src="https://www.gstatic.com/firebasejs/8.2.0/firebase.js"></script>
-	<script src="js/compra.js" charset="utf-8"></script>
+        </div>
+     
+	    <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase.js"></script>
+	    <script src="js/compra.js" charset="utf-8"></script>
 	
-	<footer>
+	    <footer>
 
             <a href="AvisoDePrivacidad.html">Aviso de Privacidad</a> | <a href="TerminosYCondiciones.html">Terminos y Condiciones</a> 
             | Derechos reservados | Piñateria los venados &copy;
   
         </footer>
-</body>
+    </body>
 </html>
