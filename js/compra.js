@@ -151,7 +151,7 @@ function sendEmail(nombre, email, direccion, x1, pinata, precio, targ, total)
     SecureToken : "C973D7AD-F097-4B95-91F4-40ABC5567812",
     Host: "smtp.gmail.com",
     Username: 'pinateriavenados@gmail.com',
-    Password: "nfxocpoaztilzmmf",
+    Password: "eryuhgzlbqtkbbod",
     To: "pinateriavenados@gmail.com",
     From: "pinateriavenados@gmail.com",
     Subject: `${nombre} te ha enviado un mensaje`,
