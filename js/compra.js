@@ -12,7 +12,8 @@ myFunction(valor);
        document.frmcompra.f1t1.value = "cara de papa";
        document.frmcompra.f1t2.value = 250.00;
        document.getElementById("nombre").innerHTML = nombre;
-       document.getElementById("cantidad").innerHTML = cantidad; 
+       document.getElementById("cantidad").innerHTML = cantidad;
+       document.fiu.style.backgroundImage = "url('https://i.pinimg.com/564x/c0/96/30/c09630d1ce8ff6107875a3d15344eb8b.jpg')";
        break;
      case "2":
        document.frmcompra.f1t1.value = "corona virus";
@@ -33,32 +34,31 @@ myFunction(valor);
        document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      case "5":
-       nombre = "alebrije";
-       cantidad = 275.00;
+       document.frmcompra.f1t1.value = "alebrije";
+       document.frmcompra.f1t2.value = 275.00;
        document.getElementById("nombre").innerHTML = nombre;
        document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      case "6":
-       nombre = "piñata navideña";
-       cantidad = 255.00;
+       document.frmcompra.f1t1.value = "piñata navideña";
+       document.frmcompra.f1t2.value = 255.00;
        document.getElementById("nombre").innerHTML = nombre;
        document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      case "7":
-       nombre = "saquen el esposo";
-       cantidad = 290.00;
+       document.frmcompra.f1t1.value = "saquen el esposo";
+       document.frmcompra.f1t2.value = 290.00;
        document.getElementById("nombre").innerHTML = nombre;
        document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      case "8":
-       nombre = "mujer de vida galante";
-       cantidad = 300.00;
+       document.frmcompra.f1t1.value = "mujer de vida galante";
+       document.frmcompra.f1t2.value = 300.00;
        document.getElementById("nombre").innerHTML = nombre;
        document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      default:
        alert("No existe esa piñata");
-
        break;
    }
 
