@@ -151,12 +151,14 @@ h1{
   text-align: justify;
   text-shadow: 2px 2px 3px #bb0b0b;
   font-weight: bold;
+  display: inline-block;
 }
 
-.box input{
+.box input textarea{
   color: black;
   text-align: justify;
   font-weight: bold;
+  display: inline-block;
 }
 
 footer{
