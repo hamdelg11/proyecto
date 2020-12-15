@@ -154,7 +154,14 @@ h1{
   display: inline-block;
 }
 
-.box input textarea{
+.box input{
+  color: black;
+  text-align: justify;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.box textarea{
   color: black;
   text-align: justify;
   font-weight: bold;
