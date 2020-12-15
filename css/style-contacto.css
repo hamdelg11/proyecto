@@ -145,3 +145,13 @@ h1{
   margin-bottom: 15px;
   margin-top: 15px;
 }
+
+footer{
+  align-self: flex-end;
+  background-color: rgba(120,120,120,.5);
+  line-height: 3;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #000000;
+}
