@@ -86,7 +86,7 @@ function submitForm(e)
   let pinata = document.querySelector(".pina").value;
   let precio = document.querySelector(".precio").value;
   let targ = document.querySelector(".targ").value;
-  let total = precio * x1;
+  let total = precio * x1 + "";
   console.log(nombre, email, x1, direccion, pinata, precio, targ, total);
   
   saveContactInfo(nombre, email, direccion, x1, pinata, precio, targ, total);
