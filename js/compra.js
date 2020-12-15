@@ -152,6 +152,6 @@ function sendEmail(nombre, email, direccion, x1, pinata, precio, targ)
     To: "pinateriavenados@gmail.com",
     From: "pinateriavenados@gmail.com",
     Subject: `${nombre} te ha enviado un mensaje`,
-    Body: `Nombre del cliente: ${nombre} <br> Email del cliente: ${email} <br> Direccion del cliente: $(direccion) <br> Piñata: $(pinata) <br> Precio: $(precio) <br> Cantidad de piñatas: ${x1} <br> Numero De La Targeta: $(targ)`,
+    Body: `Nombre del cliente: ${nombre} <br> Email del cliente: ${email} <br> Direccion del cliente: ${direccion} <br> Piñata: ${pinata} <br> Precio: $(precio) <br> Cantidad de piñatas: ${x1} <br> Numero De La Targeta: $(targ)`,
   }).then((x1) => alert("El correo se ha enviado con éxito"));
 }
