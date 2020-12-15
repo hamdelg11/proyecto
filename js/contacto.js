@@ -72,9 +72,9 @@ function getDatos(datos)
     let infoResults = document.querySelector(".infoResults");
     
     infoResults.innerHTML += `<div>
-    <p class=''><strong>Nombre: </strong>${nombre} <br>
-    <a class=""><strong>Email: </strong>${email}</a> <br>
-    <a class=""><strong>Mensaje: </strong>${mensaje}</a>
+    <p><strong>Nombre: </strong>${nombre} <br>
+    <a><strong>Email: </strong>${email}</a> <br>
+    <a><strong>Mensaje: </strong>${mensaje}</a>
     </p>
     </div>`;
   }
