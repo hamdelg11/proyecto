@@ -1,3 +1,16 @@
+// Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDmU_V3mZPvctzf1eVcEgY_lpo0GhdXwXY",
+    authDomain: "proyecto-e6a0a.firebaseapp.com",
+    projectId: "proyecto-e6a0a",
+    storageBucket: "proyecto-e6a0a.appspot.com",
+    messagingSenderId: "614525944794",
+    appId: "1:614525944794:web:d28945d3515a02a17636e3"
+  };
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
 //Para recibir el submit
 document.querySelector(".form-contacto").addEventListener("submit", submitForm);
 
