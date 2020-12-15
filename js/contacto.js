@@ -44,8 +44,32 @@ function saveContactInfo(nombre, email, mensaje)
     email : email,
     mensaje : mensaje,
   });
+  
+  recuperarInfo();
 }
 
+//Para recuperar la información del contacto
+function recuperarInfo()
+{
+  let ref = firebase.database().ref("informacion");
+  ref.on("value", getDatos);
+}
+
+function getDatos(datos)
+{
+  let info = datos.val();
+  let key = Object.key(info);
+  
+  for(let i = 0; i < key.length; i++)
+  {
+    let Datos = key[i];
+    let nombre = info[Dato].nombre;
+    let email = info[Dato].email;
+    let mensaje = info[Dato].mensaje;
+    console.log(nombre, email, mensaje);
+  }
+}
+  
 //Para enviar la información del e-mail
 function sendEmail(nombre, email, mensaje)
 {
