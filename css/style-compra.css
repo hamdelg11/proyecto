@@ -108,6 +108,7 @@ h1{
 }
 
 .fiu{
+  background:no-repeat center center fixed
   background-size: cover;
   position: flex;
   margin: auto;
