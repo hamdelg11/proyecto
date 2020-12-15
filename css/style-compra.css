@@ -112,6 +112,7 @@ h1{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-attachment: scroll;
   background-size: cover;
   position: flex;
   margin: auto;
