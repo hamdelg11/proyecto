@@ -108,7 +108,8 @@ h1{
 }
 
 .fiu{
-  
+  background: url(imagen.png) no-repeat center center fixed;
+  background-size: cover;
   position: flex;
   margin: auto;
   padding-left: auto;
