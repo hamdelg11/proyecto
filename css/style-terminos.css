@@ -165,6 +165,10 @@
     text-shadow: 2px 2px 3px #000000;
   }
 
+a{
+    color: #62DAE6;
+}
+
 footer a{
     color: #62DAE6;
 }
