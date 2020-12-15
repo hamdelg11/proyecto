@@ -178,3 +178,7 @@ footer{
   color: #ffffff;
   text-shadow: 2px 2px 3px #000000;
 }
+
+footer a{
+    color: #62DAE6;
+}
