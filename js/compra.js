@@ -11,6 +11,7 @@ myFunction(valor);
      case "1":
        nombre = "cara de papa";
        cantidad = 250.00;
+       document.frmcompra.f1t1.value = 30
        document.getElementById("nombre").innerHTML = nombre;
        document.getElementById("cantidad").innerHTML = cantidad; 
        break;
