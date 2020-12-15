@@ -26,5 +26,18 @@ function   saveContactInfo(nombre, email, mensaje)
     email: email,
     mensaje: mensaje,
   });
+}
 
+//Para enviar la información del e-mail
+function sendEmail(nombre, email, mensaje)
+{
+  Email.send({
+    Host: "smtp.gmail.com",
+    Username: 'pinateriavenados@gmail.com',
+    Password: "nfxocpoaztilzmmf",
+    To: 'pinateriavenados@gmail.com',
+    From: 'pinateriavenados@gmail.com',
+    Subject: '${nombre} te ha enviado un mensaje',
+    Body: 'Nombre: ${nombre} <br> Email: ${email} <br> Mensaje: ${mensaje}',
+  }).then((mensaje) => alert("El correo se ha enviado con éxito"))
 }
