@@ -16,7 +16,6 @@ function submitForm(e)
 }
 
 //Para guardar información del contacto
-
 function   saveContactInfo(nombre, email, mensaje)
 {
   let newContactInfo = contactInfo.push();
@@ -32,12 +31,12 @@ function   saveContactInfo(nombre, email, mensaje)
 function sendEmail(nombre, email, mensaje)
 {
   Email.send({
-    Host: "smtp.gmail.com",
-    Username: 'pinateriavenados@gmail.com',
-    Password: "nfxocpoaztilzmmf",
-    To: 'pinateriavenados@gmail.com',
-    From: 'pinateriavenados@gmail.com',
-    Subject: '${nombre} te ha enviado un mensaje',
-    Body: 'Nombre: ${nombre} <br> Email: ${email} <br> Mensaje: ${mensaje}',
-  }).then((mensaje) => alert("El correo se ha enviado con éxito"))
+    Host : "smtp.gmail.com",
+    Username : 'pinateriavenados@gmail.com',
+    Password : "nfxocpoaztilzmmf",
+    To : 'pinateriavenados@gmail.com',
+    From : 'pinateriavenados@gmail.com',
+    Subject : '${nombre} te ha enviado un mensaje',
+    Body : 'Nombre: ${nombre} <br> Email: ${email} <br> Mensaje: ${mensaje}'
+  }).then((mensaje) => alert("El correo se ha enviado con éxito"));
 }
