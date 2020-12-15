@@ -79,6 +79,8 @@ function getDatos(datos)
     </div>`;
   }
 }
+
+recuperarInfo();
   
 //Para enviar la información del e-mail
 function sendEmail(nombre, email, mensaje)
@@ -90,7 +92,6 @@ function sendEmail(nombre, email, mensaje)
     To: 'pinateriavenados@gmail.com',
     From: 'pinateriavenados@gmail.com',
     Subject: '${nombre} te ha enviado un mensaje',
-    Body: 'Nombre: ${nombre} <br> Email: ${email} <br> Mensaje: ${mensaje}'
+    Body: 'Nombre: ${nombre} <br> Email: ${email} <br> Mensaje: ${mensaje}',
   }).then((mensaje) => alert("El correo se ha enviado con éxito"));
 }
-recuperarInfo();
