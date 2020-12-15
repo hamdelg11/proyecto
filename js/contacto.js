@@ -2,6 +2,7 @@
   var firebaseConfig = {
     apiKey: "AIzaSyDmU_V3mZPvctzf1eVcEgY_lpo0GhdXwXY",
     authDomain: "proyecto-e6a0a.firebaseapp.com",
+    databaseURL: "https://proyecto-e6a0a-default-rtdb.firebaseio.com",
     projectId: "proyecto-e6a0a",
     storageBucket: "proyecto-e6a0a.appspot.com",
     messagingSenderId: "614525944794",
@@ -62,10 +63,10 @@ function getDatos(datos)
   
   for(let i = 0; i < keys.length; i++)
   {
-    let Datos = keys[i];
-    let nombre = info[Dato].nombre;
-    let email = info[Dato].email;
-    let mensaje = info[Dato].mensaje;
+    let infoData = keys[i];
+    let nombre = info[infoData].nombre;
+    let email = info[infoData].email;
+    let mensaje = info[infoData].mensaje;
     console.log(nombre, email, mensaje);
   }
 }
