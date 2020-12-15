@@ -11,51 +11,35 @@ myFunction(valor);
      case "1":
        document.frmcompra.f1t1.value = "cara de papa";
        document.frmcompra.f1t2.value = 250.00;
-       document.getElementById("nombre").innerHTML = nombre;
-       document.getElementById("cantidad").innerHTML = cantidad;
        document.getElementById("fiu").style.backgroundImage = "url('https://i.pinimg.com/564x/d2/18/bd/d218bd994932215dcb9e006c92eca90b.jpg')";
        break;
      case "2":
        document.frmcompra.f1t1.value = "corona virus";
        document.frmcompra.f1t2.value = 275.00;
-       document.getElementById("nombre").innerHTML = nombre;
-       document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      case "3":
        document.frmcompra.f1t1.value = "cubetazo";
        document.frmcompra.f1t2.value = 265.00;
-       document.getElementById("nombre").innerHTML = nombre;
-       document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      case "4":
        document.frmcompra.f1t1.value = "pavo real";
        document.frmcompra.f1t2.value = 280.00;
-       document.getElementById("nombre").innerHTML = nombre;
-       document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      case "5":
        document.frmcompra.f1t1.value = "alebrije";
        document.frmcompra.f1t2.value = 275.00;
-       document.getElementById("nombre").innerHTML = nombre;
-       document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      case "6":
        document.frmcompra.f1t1.value = "piñata navideña";
        document.frmcompra.f1t2.value = 255.00;
-       document.getElementById("nombre").innerHTML = nombre;
-       document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      case "7":
        document.frmcompra.f1t1.value = "saquen el esposo";
        document.frmcompra.f1t2.value = 290.00;
-       document.getElementById("nombre").innerHTML = nombre;
-       document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      case "8":
        document.frmcompra.f1t1.value = "mujer de vida galante";
        document.frmcompra.f1t2.value = 300.00;
-       document.getElementById("nombre").innerHTML = nombre;
-       document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      default:
        alert("No existe esa piñata");
