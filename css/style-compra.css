@@ -61,6 +61,7 @@ header input: checked::before{
 }
 
 header a{
+  background-size: auto;
   position: fixed;
   opacity: 0;
   transform: translate(0);
