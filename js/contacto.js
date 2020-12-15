@@ -12,7 +12,7 @@
 firebase.initializeApp(firebaseConfig);
 
 //Colección de contactos
-let contactInfo = firebase.database().ref(info);
+let contactInfo = firebase.database().ref("info");
 
 //Para recibir el submit
 document.querySelector(".form-contacto").addEventListener("submit", submitForm);
