@@ -27,7 +27,7 @@ function submitForm(e)
   let mensaje = document.querySelector(".mensaje").value;
   console.log(nombre, email, mensaje);
   
-  function saveContactInfo(nombre, email, mensaje)
+  function saveContactInfo(nombre, email, mensaje);
 }
 
 //Para guardar información del contacto
