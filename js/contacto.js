@@ -58,11 +58,11 @@ function recuperarInfo()
 function getDatos(datos)
 {
   let info = datos.val();
-  let key = Object.key(info);
+  let keys = Object.keys(info);
   
-  for(let i = 0; i < key.length; i++)
+  for(let i = 0; i < keys.length; i++)
   {
-    let Datos = key[i];
+    let Datos = keys[i];
     let nombre = info[Dato].nombre;
     let email = info[Dato].email;
     let mensaje = info[Dato].mensaje;
