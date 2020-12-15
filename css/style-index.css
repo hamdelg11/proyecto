@@ -30,6 +30,13 @@ body{
   border-radius: 50px;
 }
 
+.menu img{
+  width: 50px;
+  height: 50px;
+  margin-right: 180%;
+}
+
+
 h3, p{
   color: #ffffff;
   text-shadow: 2px 2px 3px #bb0b0b;
