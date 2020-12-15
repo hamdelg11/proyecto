@@ -68,15 +68,6 @@ function getDatos(datos)
     let email = info[infoData].email;
     let mensaje = info[infoData].mensaje;
     console.log(nombre, email, mensaje);
-    
-    let infoResults = document.querySelector(".infoResults");
-    
-    infoResults.innerHTML += `<div>
-    <p><strong>Nombre: </strong>${nombre} <br>
-    <a><strong>Email: </strong>${email}</a> <br>
-    <a><strong>Mensaje: </strong>${mensaje}</a>
-    </p>
-    </div>`;
   }
 }
 
