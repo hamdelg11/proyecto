@@ -13,6 +13,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #66999;
+  min-height: 100vh;
 }
 
 .menu{
@@ -108,4 +109,12 @@ header input:checked ~ a:nth-child(4){
 
 header input:checked ~ a:nth-child(5){
   transform: translate(210px);
+}
+
+footer{
+  align-self: flex-end;
+  background-color: rgba(120,120m120,.5);
+  line-height: 3;
+  text-align: center;
+  width: 100%;
 }
