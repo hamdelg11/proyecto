@@ -9,12 +9,13 @@ function submitForm(e)
   let nombre = document.querySelector(".nombre").value;
   let email = document.querySelector(".email").value;
   let mensaje = document.querySelector(".mensaje").value;
+  console.log(nombre, email, mensaje);
   
- console.log(nombre, email, mensaje)
+  function saveContactInfo(nombre, email, mensaje)
 }
 
 //Para guardar información del contacto
-function   saveContactInfo(nombre, email, mensaje)
+function saveContactInfo(nombre, email, mensaje)
 {
   let newContactInfo = contactInfo.push();
   
