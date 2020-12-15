@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>COMPRA DE PIÑATAS</title>
+</head>
+<body>
+	<h1 id="nombre"></h1>
+	<h1 id="cantidad"></h1>
+	<div>
+		<form method="POST" class="form-compra">
+	    <label for="">Cantidad*</label><br>
+		<input type="text" class="x1" required>
+		<label for="">Nombre*</label><br>
+        <input class="nombre" type="text" placeholder="Ingrese su nombre" required /><br>
+        <label for="">E-mail*</label><br>
+        <input class="email" type="email" placeholder="Ingrese su correo electrónico" required /><br>
+		<button type="submit">Comprar</button>
+		</form>
+	</div>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase.js"></script>
+	<script src="compra.js" charset="utf-8"></script>
+</body>
+</html>
