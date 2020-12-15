@@ -13,7 +13,7 @@ myFunction(valor);
        document.frmcompra.f1t2.value = 250.00;
        document.getElementById("nombre").innerHTML = nombre;
        document.getElementById("cantidad").innerHTML = cantidad;
-       document.fiu.style.backgroundImage = "url('https://i.pinimg.com/564x/c0/96/30/c09630d1ce8ff6107875a3d15344eb8b.jpg')";
+       document.getElementById("fiu").style.backgroundImage = "url('https://i.pinimg.com/564x/c0/96/30/c09630d1ce8ff6107875a3d15344eb8b.jpg')";
        break;
      case "2":
        document.frmcompra.f1t1.value = "corona virus";
