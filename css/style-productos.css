@@ -125,7 +125,7 @@ header input:checked ~ a:nth-child(5){
   width: 100%;
   position: absolute;
   bottom: 0; left: 0;
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
