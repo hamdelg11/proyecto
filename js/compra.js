@@ -11,7 +11,7 @@ myFunction(valor);
      case "1":
        document.frmcompra.f1t1.value = "cara de papa";
        document.frmcompra.f1t2.value = 250.00;
-       document.getElementById("fiu").style.backgroundImage = "url('https://i.pinimg.com/564x/d2/18/bd/d218bd994932215dcb9e006c92eca90b.jpg')no-repeat center center fixed";
+       document.getElementById("fiu").style.backgroundImage = "url('https://i.pinimg.com/564x/d2/18/bd/d218bd994932215dcb9e006c92eca90b.jpg')";
        break;
      case "2":
        document.frmcompra.f1t1.value = "corona virus";
