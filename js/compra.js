@@ -9,27 +9,26 @@ myFunction(valor);
  function myFunction(valor) {  
    switch (valor) {
      case "1":
-       nombre = "cara de papa";
-       cantidad = 250.00;
-       document.frmcompra.f1t1.value = 30;
+       document.frmcompra.f1t1.value = "cara de papa";
+       document.frmcompra.f1t2.value = 250.00;
        document.getElementById("nombre").innerHTML = nombre;
        document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      case "2":
-       nombre = "corona virus";
-       cantidad = 275.00;
+       document.frmcompra.f1t1.value = "corona virus";
+       document.frmcompra.f1t2.value = 275.00;
        document.getElementById("nombre").innerHTML = nombre;
        document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      case "3":
-       nombre = "cubetazo";
-       cantidad = 265.00;
+       document.frmcompra.f1t1.value = "cubetazo";
+       document.frmcompra.f1t2.value = 265.00;
        document.getElementById("nombre").innerHTML = nombre;
        document.getElementById("cantidad").innerHTML = cantidad; 
        break;
      case "4":
-       nombre = "pavo real";
-       cantidad = 280.00;
+       document.frmcompra.f1t1.value = "pavo real";
+       document.frmcompra.f1t2.value = 280.00;
        document.getElementById("nombre").innerHTML = nombre;
        document.getElementById("cantidad").innerHTML = cantidad; 
        break;
