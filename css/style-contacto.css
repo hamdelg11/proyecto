@@ -152,6 +152,7 @@ h1{
   text-shadow: 2px 2px 3px #bb0b0b;
   font-weight: bold;
   display: inline-block;
+  font-size: 12px;
 }
 
 .box input{
@@ -159,6 +160,7 @@ h1{
   text-align: justify;
   font-weight: bold;
   display: inline-block;
+  font-size: 12px;
 }
 
 .box textarea{
@@ -166,6 +168,7 @@ h1{
   text-align: justify;
   font-weight: bold;
   display: inline-block;
+  font-size: 12px;
 }
 
 footer{
