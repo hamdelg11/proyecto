@@ -30,6 +30,8 @@ function submitForm(e)
   saveContactInfo(nombre, email, mensaje);
   
   document.querySelector(".form-contacto").reset();
+  
+  sendEmail(nombre, email, mensaje);
 }
 
 //Para guardar información del contacto
