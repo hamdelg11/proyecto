@@ -11,6 +11,9 @@
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
+//Colección de contactos
+let contactInfo = firebase.database().ref(info);
+
 //Para recibir el submit
 document.querySelector(".form-contacto").addEventListener("submit", submitForm);
 
@@ -33,9 +36,9 @@ function saveContactInfo(nombre, email, mensaje)
   let newContactInfo = contactInfo.push();
   
   newContactInfo.set({
-    nombre: nombre,
-    email: email,
-    mensaje: mensaje,
+    nombre : nombre,
+    email : email,
+    mensaje : mensaje,
   });
 }
 
