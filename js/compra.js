@@ -86,14 +86,14 @@ function submitForm(e)
   let pinata = document.querySelector(".pina").value;
   let precio = document.querySelector(".precio").value;
   let targ = document.querySelector(".targ").value;
-  let total = precio * x1 + "";
+  var total = precio * x1 + "";
   console.log(nombre, email, x1, direccion, pinata, precio, targ, total);
   
-  saveContactInfo(nombre, email, direccion, x1, pinata, precio, total);
+  saveContactInfo(nombre, email, direccion, x1, pinata, precio, targ, total);
   
   document.querySelector(".form-compra").reset();
   
-  sendEmail(nombre, email, direccion, x1, pinata, precio, total);
+  sendEmail(nombre, email, direccion, x1, pinata, precio, targ, total);
 }
 
 //Para guardar información del contacto
