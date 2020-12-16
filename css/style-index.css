@@ -121,6 +121,14 @@ footer{
   text-shadow: 2px 2px 3px #000000;
 }
 
-span{
+.corona{
   background-color: #A2BBC8;
+}
+
+.camion{
+  background-color: #B1DEE2;
+}
+
+.fiestas{
+  background-color: #B29F74;
 }
