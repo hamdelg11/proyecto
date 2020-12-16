@@ -137,6 +137,15 @@ h1{
   text-shadow: 2px 2px 3px #bb0b0b;
 }
 
+.box img{
+	width: 100%;
+	height: 100%;
+	
+	
+	
+	
+}
+
 .box h2{
   color: #ffffff;
   text-shadow: 2px 2px 3px #bb0b0b;
