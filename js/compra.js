@@ -155,5 +155,5 @@ function sendEmail(nombre, email, direccion, x1, pinata, precio, targ, total)
     From: `${email}`,
     Subject: `${nombre} te ha enviado un mensaje`,
     Body: `Nombr del cliente: ${nombre} <br> Email del cliente: ${email} <br> Direccion del cliente: ${direccion} <br> Cantidad: ${x1} <br> Piñata: ${pinata} <br> precio: ${precio} <br> tarjeta: ${targ} <br> total: ${total}`,
-  }).then((x1) => alert("El correo se ha enviado con éxito"));
+  }).then((x1) => alert("La compra se realizó con éxito. Nos pondremos en contacto con usted vía correo electrónico."));
 }
